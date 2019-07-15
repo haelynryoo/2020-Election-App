@@ -114,13 +114,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AndrewYang" translatesAutoresizingMaskIntoConstraints="NO" id="mOK-5u-Ew7">
+                                <rect key="frame" x="16" y="100" width="138" height="138"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="UhO-sp-oiO"/>
+                                    <constraint firstAttribute="height" constant="138" id="iLc-QT-a9I"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8e-zg-HjR">
+                                <rect key="frame" x="166" y="100" width="193" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="6Yp-65-s2c" firstAttribute="bottom" secondItem="mOK-5u-Ew7" secondAttribute="bottom" constant="429" id="4Pd-BE-HST"/>
+                            <constraint firstItem="mOK-5u-Ew7" firstAttribute="leading" secondItem="a5e-2b-JTJ" secondAttribute="leading" id="Cdr-xw-thl"/>
+                            <constraint firstItem="mOK-5u-Ew7" firstAttribute="leading" secondItem="6Yp-65-s2c" secondAttribute="leading" constant="16" id="M3X-Xd-fBS"/>
                             <constraint firstItem="a5e-2b-JTJ" firstAttribute="top" secondItem="6Yp-65-s2c" secondAttribute="top" id="RyN-CB-s2F"/>
+                            <constraint firstItem="6Yp-65-s2c" firstAttribute="trailing" secondItem="mOK-5u-Ew7" secondAttribute="trailing" constant="221" id="VHQ-dl-mSm"/>
                             <constraint firstItem="6Yp-65-s2c" firstAttribute="bottom" secondItem="a5e-2b-JTJ" secondAttribute="bottom" constant="575" id="icj-P3-e1T"/>
                             <constraint firstItem="a5e-2b-JTJ" firstAttribute="leading" secondItem="6Yp-65-s2c" secondAttribute="leading" constant="16" id="nGK-Ni-n75"/>
                             <constraint firstItem="6Yp-65-s2c" firstAttribute="trailing" secondItem="a5e-2b-JTJ" secondAttribute="trailing" constant="166" id="vfQ-xX-raB"/>
+                            <constraint firstItem="mOK-5u-Ew7" firstAttribute="top" secondItem="6Yp-65-s2c" secondAttribute="top" constant="80" id="xF1-Yt-RDr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Yp-65-s2c"/>
                     </view>
@@ -160,4 +179,7 @@
             <point key="canvasLocation" x="1612" y="867"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AndrewYang" width="225" height="225"/>
+    </resources>
 </document>
