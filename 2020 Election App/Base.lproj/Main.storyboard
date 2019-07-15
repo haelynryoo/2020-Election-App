@@ -44,33 +44,15 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YB2-Ff-Gbf">
-                                <rect key="frame" x="110" y="198" width="254" height="74"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlG-mm-KAq">
+                                <rect key="frame" x="113" y="169" width="149" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="DEMOCRATS">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="DEMOCRATS">
-                                            <attributes>
-                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <font key="NSFont" size="30" name="Charter-Roman"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
+                                <state key="normal" image="DemocraticLogo"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWv-H3-Wct">
-                                <rect key="frame" x="132" y="316" width="211" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXt-oD-17X">
+                                <rect key="frame" x="125" y="323" width="124" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="REPUBLICANS">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="REPUBLICANS">
-                                            <attributes>
-                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <font key="NSFont" size="30" name="Charter-Roman"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
+                                <state key="normal" title="Button" image="RepublicanLogo"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -114,32 +96,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AndrewYang" translatesAutoresizingMaskIntoConstraints="NO" id="mOK-5u-Ew7">
-                                <rect key="frame" x="16" y="100" width="138" height="138"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="138" id="UhO-sp-oiO"/>
-                                    <constraint firstAttribute="height" constant="138" id="iLc-QT-a9I"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8e-zg-HjR">
-                                <rect key="frame" x="166" y="100" width="193" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Yp-65-s2c" firstAttribute="bottom" secondItem="mOK-5u-Ew7" secondAttribute="bottom" constant="429" id="4Pd-BE-HST"/>
-                            <constraint firstItem="mOK-5u-Ew7" firstAttribute="leading" secondItem="a5e-2b-JTJ" secondAttribute="leading" id="Cdr-xw-thl"/>
-                            <constraint firstItem="mOK-5u-Ew7" firstAttribute="leading" secondItem="6Yp-65-s2c" secondAttribute="leading" constant="16" id="M3X-Xd-fBS"/>
                             <constraint firstItem="a5e-2b-JTJ" firstAttribute="top" secondItem="6Yp-65-s2c" secondAttribute="top" id="RyN-CB-s2F"/>
-                            <constraint firstItem="6Yp-65-s2c" firstAttribute="trailing" secondItem="mOK-5u-Ew7" secondAttribute="trailing" constant="221" id="VHQ-dl-mSm"/>
                             <constraint firstItem="6Yp-65-s2c" firstAttribute="bottom" secondItem="a5e-2b-JTJ" secondAttribute="bottom" constant="575" id="icj-P3-e1T"/>
                             <constraint firstItem="a5e-2b-JTJ" firstAttribute="leading" secondItem="6Yp-65-s2c" secondAttribute="leading" constant="16" id="nGK-Ni-n75"/>
                             <constraint firstItem="6Yp-65-s2c" firstAttribute="trailing" secondItem="a5e-2b-JTJ" secondAttribute="trailing" constant="166" id="vfQ-xX-raB"/>
-                            <constraint firstItem="mOK-5u-Ew7" firstAttribute="top" secondItem="6Yp-65-s2c" secondAttribute="top" constant="80" id="xF1-Yt-RDr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Yp-65-s2c"/>
                     </view>
@@ -180,6 +143,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AndrewYang" width="225" height="225"/>
+        <image name="DemocraticLogo" width="347" height="313"/>
+        <image name="RepublicanLogo" width="345" height="315"/>
     </resources>
 </document>
