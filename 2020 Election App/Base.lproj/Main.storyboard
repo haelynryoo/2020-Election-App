@@ -282,10 +282,10 @@
             </objects>
             <point key="canvasLocation" x="870" y="394"/>
         </scene>
-        <!--Candidate Info View Controller-->
+        <!--Democratic Candidates Buttons View Controller-->
         <scene sceneID="cpT-7i-pcX">
             <objects>
-                <viewController id="mNc-FW-fjT" customClass="CandidateInfoViewController" customModule="_020_Election_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mNc-FW-fjT" customClass="DemocraticCandidatesButtonsViewController" customModule="_020_Election_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Ua-vY-dN1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -387,12 +387,12 @@
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
-                        <outlet property="PoliciesLabel" destination="3hg-Z7-wmq" id="0ds-ru-opa"/>
-                        <outlet property="ScandalsLabel" destination="M2F-jc-luZ" id="c9v-g1-APN"/>
-                        <outlet property="aboutWritingLabel" destination="iaa-Xj-2xG" id="Hvw-5n-I6p"/>
-                        <outlet property="imageLabel" destination="LOj-kf-zKi" id="93v-yr-qhF"/>
-                        <outlet property="nameLabel" destination="QY9-hh-HuF" id="3B2-hv-S9g"/>
-                        <outlet property="pastExperiencesLabel" destination="01G-rl-I9F" id="7uu-Ag-eNU"/>
+                        <outlet property="AboutLabel" destination="iaa-Xj-2xG" id="zU3-yu-Ngs"/>
+                        <outlet property="ImageLabel" destination="LOj-kf-zKi" id="0f9-q3-Pbp"/>
+                        <outlet property="PoliciesLabel" destination="3hg-Z7-wmq" id="Y2H-3f-kjt"/>
+                        <outlet property="ScandalsLabel" destination="M2F-jc-luZ" id="4vh-hG-4EG"/>
+                        <outlet property="nameLabel" destination="QY9-hh-HuF" id="0Zb-6g-Tnt"/>
+                        <outlet property="pastExperiencesLabel" destination="01G-rl-I9F" id="V4x-zD-6Tf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cf-jV-boG" userLabel="First Responder" sceneMemberID="firstResponder"/>

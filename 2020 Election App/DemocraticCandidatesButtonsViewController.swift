@@ -19,6 +19,17 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
         let Scandals: String
     }
     
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var ImageLabel: UIImageView!
+    
+    @IBOutlet weak var AboutLabel: UILabel!
+    
+    @IBOutlet weak var pastExperiencesLabel: UILabel!
+    
+    @IBOutlet weak var PoliciesLabel: UILabel!
+    
+    @IBOutlet weak var ScandalsLabel: UILabel!
     var candidates: [candidate] = [
         candidate(Name: "Kamala Harris",
                   Image: UIImage(named: "Kamala"),
@@ -79,6 +90,8 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
     var currentCandidate: candidate?
     var currentCandidateSelected: Int = 0
     func setCandidate(C: Int) {
+        //set candidate with Int parameter passed
+        currentCandidate = candidates[C]
         
         
     }

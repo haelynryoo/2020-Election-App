@@ -10,17 +10,7 @@ import UIKit
 
 class CandidateInfoViewController: UIViewController {
 
-    @IBOutlet weak var nameLabel: UILabel!
     
-    @IBOutlet weak var imageLabel: UIImageView!
-    
-    @IBOutlet weak var aboutWritingLabel: UILabel!
-    
-    
-    @IBOutlet weak var pastExperiencesLabel: UILabel!
-    @IBOutlet weak var PoliciesLabel: UILabel!
-    
-    @IBOutlet weak var ScandalsLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
