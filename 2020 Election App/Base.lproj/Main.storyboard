@@ -79,7 +79,7 @@
         <!--View Controller-->
         <scene sceneID="Mao-yT-vFF">
             <objects>
-                <viewController id="izv-RU-Re8" sceneMemberID="viewController">
+                <viewController id="izv-RU-Re8" customClass="ViewController" customModule="_020_Election_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xia-6p-MUA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
