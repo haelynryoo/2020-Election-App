@@ -78,68 +78,77 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
     
     var currentCandidate: candidate?
     var currentCandidateSelected: Int = 0
-    func setCandidate(){
+    func setCandidate(C: Int) {
         
         
     }
     @IBAction func handleKamalaHarris(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with Kamala Harris
+        //call set candidate with Kamala Harris
+        setCandidate(C: 0)
     }
     @IBAction func handleJoeBiden(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with Joe
+        //call set candidate with Joe
+        setCandidate(C: 1)
     }
     @IBAction func BernieSanders(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with Bernie
+        //call set candidate with Bernie
+        setCandidate(C: 2)
     }
     
     @IBAction func handlePeteButtegieg(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with Pete
+        //call set candidate with Pete
+        setCandidate(C: 3)
     }
     
     @IBAction func handleCoreyBooker(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with Corey
-        
+        //call set candidate with Corey
+        setCandidate(C: 4)
     }
     
     @IBAction func handleBeto(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with Beto
-        }
+        //call set candidate with Beto
+        setCandidate(C: 5)
+    }
     
     @IBAction func handleElizabethWarren(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with elizabeth
+        //call set candidate with elizabeth
+        setCandidate(C: 6)
     }
     
   
     @IBAction func handleAndrewYang(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with Andrew
+        //call set candidate with Andrew
+        setCandidate(C: 7)
     }
     
     @IBAction func handleAmyKlobuchar(_ sender: Any) {
         //todo move to candidate view controller
         
-        //to do call set candidate with Amy
+        //call set candidate with Amy
+        setCandidate(C: 8)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
     
 
