@@ -17,11 +17,16 @@ class RepublicanCandidateButtonsViewController: UIViewController {
         vc.currentCandidateSelected = candidateNumber
     }
     
+    @IBAction func candidatePressed(_ sender: Any) {
+        let button = sender as! UIButton
+        setCandidate(C: button.tag)
+    }
+    
     func setCandidate(C: Int) {
         //set candidate with Int parameter passed
         candidateNumber = C
         performSegue(withIdentifier: "SgShowCandidate", sender: nil)
-    
+    }
         
         
     override func viewDidLoad() {
@@ -42,3 +47,4 @@ class RepublicanCandidateButtonsViewController: UIViewController {
     */
 
 }
+
