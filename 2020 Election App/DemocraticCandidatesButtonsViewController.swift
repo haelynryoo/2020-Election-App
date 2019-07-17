@@ -10,6 +10,34 @@ import UIKit
 
 class DemocraticCandidatesButtonsViewController: UIViewController {
     
+    //Social Media Stuff
+    
+    struct socialMedia{
+        let Twitter: String?
+        let Instagram: String?
+        let Facebook: String?
+        let Website: String?
+    }
+    
+    var currentSocialMedia: socialMedia?
+    
+    var candidateSocialMediaInformation: [socialMedia] = [
+        socialMedia(Twitter: "",
+                    Instagram: "",
+                    Facebook: "",
+                    Website: "")
+    ]
+    
+    @IBAction func twitter(_ sender: Any) {
+        
+    }
+    
+    
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    //Candidate Stuff
+    
     struct candidate{
         let Name: String?
         let Image: UIImage?
@@ -18,10 +46,6 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
         let Policies: String?
         let Scandals: String?
     }
-    
-    @IBOutlet weak var nameLabel: UILabel!
-    
-    
     
     var candidates: [candidate] = [
         candidate(Name: "Kamala Harris",
@@ -82,7 +106,7 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
     
     var currentCandidate: candidate?
     var currentCandidateSelected: Int = 0
-    
+
     
     func setCandidate(C: Int) {
         //set candidate with Int parameter passed
@@ -144,6 +168,8 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
         //call set candidate with Amy
         setCandidate(C: 8)
     }
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

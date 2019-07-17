@@ -251,6 +251,18 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-sT-sck">
+                                                <rect key="frame" x="155" y="14" width="64" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="twitterIcon"/>
+                                                <connections>
+                                                    <action selector="twitter:" destination="mNc-FW-fjT" eventType="touchUpInside" id="NLt-ws-qAb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02B-cV-JYc">
+                                                <rect key="frame" x="263" y="26" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -341,5 +353,6 @@
     <resources>
         <image name="DemocraticLogo" width="347" height="313"/>
         <image name="RepublicanLogo" width="345" height="315"/>
+        <image name="twitterIcon" width="202" height="166"/>
     </resources>
 </document>
