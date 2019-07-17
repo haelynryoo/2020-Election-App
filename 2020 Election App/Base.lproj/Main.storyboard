@@ -90,84 +90,84 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZs-JZ-jIe">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZs-JZ-jIe">
                                 <rect key="frame" x="93" y="575" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Amy Klobuchar"/>
                                 <connections>
-                                    <action selector="handleAmyKlobuchar:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="WKe-8K-LI1"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="egv-33-3Bt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgR-tt-PTZ">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgR-tt-PTZ">
                                 <rect key="frame" x="93" y="120" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Joe Biden"/>
                                 <connections>
-                                    <action selector="handleJoeBiden:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="UkU-86-jaj"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="bNz-AW-95o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6Q-zf-Xwc">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6Q-zf-Xwc">
                                 <rect key="frame" x="93" y="185" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Bernie Sanders"/>
                                 <connections>
-                                    <action selector="BernieSanders:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="DM7-Tx-Dp6"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="aDg-eq-OtJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVc-mj-c9w">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVc-mj-c9w">
                                 <rect key="frame" x="93" y="250" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Pete Buttegieg"/>
                                 <connections>
-                                    <action selector="handlePeteButtegieg:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="sEX-f2-Xna"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="den-wQ-D8S"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7V-B4-3kc">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7V-B4-3kc">
                                 <rect key="frame" x="93" y="315" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Corey Booker"/>
                                 <connections>
-                                    <action selector="handleCoreyBooker:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="P91-sQ-fyh"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="Xux-4C-7CH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4km-lw-tfh">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4km-lw-tfh">
                                 <rect key="frame" x="93" y="379" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Beto O'Rourke"/>
                                 <connections>
-                                    <action selector="handleBeto:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="dbM-8S-vf6"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="uuI-I5-oDg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvK-Jc-TLG">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvK-Jc-TLG">
                                 <rect key="frame" x="93" y="443" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Elizabeth Warren"/>
                                 <connections>
-                                    <action selector="handleElizabethWarren:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="jeg-jH-N9b"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="PYP-es-OAV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-5G-pWW">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-5G-pWW">
                                 <rect key="frame" x="93" y="509" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Andrew Yang"/>
                                 <connections>
-                                    <action selector="handleAndrewYang:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="raR-y4-2kE"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="CVC-V2-mLt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-mh-rnb">
@@ -177,7 +177,7 @@
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Kamala Harris"/>
                                 <connections>
-                                    <action selector="handleKamalaHarris:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="lci-iI-SvM"/>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="h4t-Wv-8aN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -192,10 +192,10 @@
             </objects>
             <point key="canvasLocation" x="796" y="429"/>
         </scene>
-        <!--Democratic Candidates Buttons View Controller-->
+        <!--Candidate Info View Controller-->
         <scene sceneID="cpT-7i-pcX">
             <objects>
-                <viewController id="mNc-FW-fjT" customClass="DemocraticCandidatesButtonsViewController" customModule="_020_Election_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mNc-FW-fjT" customClass="CandidateInfoViewController" customModule="_020_Election_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Ua-vY-dN1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -273,32 +273,48 @@
                                                 <rect key="frame" x="263" y="26" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWZ-Ps-pWZ">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWZ-Ps-pWZ">
                                                 <rect key="frame" x="178" y="20" width="77" height="49"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="77" id="Ncy-40-2jl"/>
+                                                    <constraint firstAttribute="height" constant="49" id="tMT-0K-Xyg"/>
+                                                </constraints>
                                                 <state key="normal" image="facebookIcon"/>
                                                 <connections>
-                                                    <action selector="facebook:" destination="mNc-FW-fjT" eventType="touchUpInside" id="y2e-C1-Edp"/>
+                                                    <action selector="socialMediaPressed:" destination="mNc-FW-fjT" eventType="touchUpInside" id="Xwp-HB-Y0m"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr3-7C-DoN">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr3-7C-DoN">
                                                 <rect key="frame" x="246" y="17" width="58" height="55"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="58" id="3r8-wb-mj7"/>
+                                                    <constraint firstAttribute="height" constant="55" id="knQ-Yf-zFI"/>
+                                                </constraints>
                                                 <state key="normal" image="instagramIcon"/>
                                                 <connections>
-                                                    <action selector="instagram:" destination="mNc-FW-fjT" eventType="touchUpInside" id="PX3-fz-ltU"/>
+                                                    <action selector="socialMediaPressed:" destination="mNc-FW-fjT" eventType="touchUpInside" id="3Od-Ub-f3X"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgT-Qs-cg1">
-                                                <rect key="frame" x="312" y="23" width="47" height="42"/>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgT-Qs-cg1">
+                                                <rect key="frame" x="312" y="23" width="47" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="42" id="NXg-yi-DT2"/>
+                                                    <constraint firstAttribute="width" constant="47" id="bdm-X1-5KL"/>
+                                                </constraints>
                                                 <state key="normal" image="webIcon"/>
                                                 <connections>
-                                                    <action selector="website:" destination="mNc-FW-fjT" eventType="touchUpInside" id="612-8b-yH6"/>
+                                                    <action selector="socialMediaPressed:" destination="mNc-FW-fjT" eventType="touchUpInside" id="cTU-4k-8pY"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-sT-sck">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-sT-sck">
                                                 <rect key="frame" x="126" y="17" width="62" height="49"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="49" id="VDL-Eg-Z9O"/>
+                                                    <constraint firstAttribute="width" constant="62" id="tWE-US-NdM"/>
+                                                </constraints>
                                                 <state key="normal" image="twitterIcon"/>
                                                 <connections>
-                                                    <action selector="twitter:" destination="mNc-FW-fjT" eventType="touchUpInside" id="NLt-ws-qAb"/>
+                                                    <action selector="socialMediaPressed:" destination="mNc-FW-fjT" eventType="touchUpInside" id="uqR-Wl-XhG"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -326,8 +342,8 @@
                                         <rect key="frame" x="10" y="91" width="123" height="121"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QY9-hh-HuF">
-                                        <rect key="frame" x="10" y="10" width="123" height="73"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QY9-hh-HuF">
+                                        <rect key="frame" x="10" y="28" width="123" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.50024248410000005" green="0.47257022389999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -364,7 +380,12 @@
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
-                        <outlet property="nameLabel" destination="QY9-hh-HuF" id="bxm-t8-akx"/>
+                        <outlet property="AboutLabel" destination="iaa-Xj-2xG" id="3ea-D7-YEK"/>
+                        <outlet property="ImageLabel" destination="LOj-kf-zKi" id="Ljj-HR-dIR"/>
+                        <outlet property="PastExperiencesLabel" destination="01G-rl-I9F" id="aIV-PV-EfN"/>
+                        <outlet property="PoliciesLabel" destination="3hg-Z7-wmq" id="ooU-iC-eJg"/>
+                        <outlet property="ScandalsLabel" destination="M2F-jc-luZ" id="etr-ER-6hB"/>
+                        <outlet property="nameLabel" destination="QY9-hh-HuF" id="bVr-Om-Lt8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cf-jV-boG" userLabel="First Responder" sceneMemberID="firstResponder"/>
