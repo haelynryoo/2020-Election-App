@@ -251,22 +251,57 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-sT-sck">
-                                                <rect key="frame" x="155" y="14" width="64" height="54"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02B-cV-JYc">
+                                                <rect key="frame" x="263" y="26" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWZ-Ps-pWZ">
+                                                <rect key="frame" x="178" y="20" width="77" height="49"/>
+                                                <state key="normal" image="facebookIcon"/>
+                                                <connections>
+                                                    <action selector="facebook:" destination="mNc-FW-fjT" eventType="touchUpInside" id="y2e-C1-Edp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr3-7C-DoN">
+                                                <rect key="frame" x="246" y="17" width="58" height="55"/>
+                                                <state key="normal" image="instagramIcon"/>
+                                                <connections>
+                                                    <action selector="instagram:" destination="mNc-FW-fjT" eventType="touchUpInside" id="PX3-fz-ltU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgT-Qs-cg1">
+                                                <rect key="frame" x="312" y="23" width="47" height="42"/>
+                                                <state key="normal" image="webIcon"/>
+                                                <connections>
+                                                    <action selector="website:" destination="mNc-FW-fjT" eventType="touchUpInside" id="612-8b-yH6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-sT-sck">
+                                                <rect key="frame" x="126" y="17" width="62" height="49"/>
                                                 <state key="normal" image="twitterIcon"/>
                                                 <connections>
                                                     <action selector="twitter:" destination="mNc-FW-fjT" eventType="touchUpInside" id="NLt-ws-qAb"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02B-cV-JYc">
-                                                <rect key="frame" x="263" y="26" width="30" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="sr3-7C-DoN" firstAttribute="top" secondItem="j83-lZ-NUs" secondAttribute="top" constant="17" id="3ae-hr-Z5f"/>
+                                            <constraint firstItem="hgT-Qs-cg1" firstAttribute="leading" secondItem="j83-lZ-NUs" secondAttribute="leading" constant="312" id="4wr-GZ-4EU"/>
+                                            <constraint firstAttribute="bottom" secondItem="sr3-7C-DoN" secondAttribute="bottom" constant="928" id="DLR-vZ-dF2"/>
+                                            <constraint firstItem="aVR-sT-sck" firstAttribute="top" secondItem="j83-lZ-NUs" secondAttribute="top" constant="17" id="HEo-Oc-AZ3"/>
+                                            <constraint firstAttribute="trailing" secondItem="hgT-Qs-cg1" secondAttribute="trailing" constant="16" id="QE8-VF-tRS"/>
+                                            <constraint firstAttribute="bottom" secondItem="aVR-sT-sck" secondAttribute="bottom" constant="934" id="TTw-WS-Jrg"/>
+                                            <constraint firstItem="sr3-7C-DoN" firstAttribute="leading" secondItem="j83-lZ-NUs" secondAttribute="leading" constant="246" id="U0k-5K-qmA"/>
+                                            <constraint firstAttribute="bottom" secondItem="hgT-Qs-cg1" secondAttribute="bottom" constant="935" id="YDg-e7-Z4I"/>
+                                            <constraint firstItem="hgT-Qs-cg1" firstAttribute="top" secondItem="j83-lZ-NUs" secondAttribute="top" constant="23" id="YJ1-tO-9gT"/>
+                                            <constraint firstItem="aVR-sT-sck" firstAttribute="leading" secondItem="j83-lZ-NUs" secondAttribute="leading" constant="126" id="aBm-Dg-g63"/>
                                             <constraint firstAttribute="height" constant="1000" id="bjF-Hp-4Qh"/>
+                                            <constraint firstAttribute="bottom" secondItem="gWZ-Ps-pWZ" secondAttribute="bottom" constant="931" id="d6q-d1-icZ"/>
+                                            <constraint firstItem="gWZ-Ps-pWZ" firstAttribute="leading" secondItem="j83-lZ-NUs" secondAttribute="leading" constant="178" id="nKV-WY-aAR"/>
+                                            <constraint firstAttribute="trailing" secondItem="sr3-7C-DoN" secondAttribute="trailing" constant="71" id="rvM-Hp-hAV"/>
+                                            <constraint firstItem="gWZ-Ps-pWZ" firstAttribute="top" secondItem="j83-lZ-NUs" secondAttribute="top" constant="20" id="vcX-K3-cun"/>
+                                            <constraint firstAttribute="trailing" secondItem="gWZ-Ps-pWZ" secondAttribute="trailing" constant="120" id="zVL-6C-4Ff"/>
                                         </constraints>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LOj-kf-zKi">
@@ -353,6 +388,9 @@
     <resources>
         <image name="DemocraticLogo" width="347" height="313"/>
         <image name="RepublicanLogo" width="345" height="315"/>
+        <image name="facebookIcon" width="420" height="320"/>
+        <image name="instagramIcon" width="245" height="229"/>
         <image name="twitterIcon" width="202" height="166"/>
+        <image name="webIcon" width="128" height="128"/>
     </resources>
 </document>

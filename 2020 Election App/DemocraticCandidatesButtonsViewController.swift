@@ -22,6 +22,46 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
     var currentSocialMedia: socialMedia?
     
     var candidateSocialMediaInformation: [socialMedia] = [
+        socialMedia(Twitter: "https://twitter.com/KamalaHarris?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "https://www.instagram.com/kamalaharris/",
+                    Facebook: "https://www.facebook.com/KamalaHarris/",
+                    Website: "https://kamalaharris.org/"),
+        socialMedia(Twitter: "https://twitter.com/joebiden?lang=en",
+                    Instagram: "https://www.instagram.com/joebiden/?hl=en",
+                    Facebook: "https://www.facebook.com/joebiden/",
+                    Website: "https://joebiden.com/"),
+        socialMedia(Twitter: "https://twitter.com/sensanders?lang=en",
+                    Instagram: "https://www.instagram.com/berniesanders/?hl=en",
+                    Facebook: "https://www.facebook.com/berniesanders/",
+                    Website: "https://berniesanders.com/"),
+        socialMedia(Twitter: "https://twitter.com/PeteButtigieg?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "https://www.instagram.com/pete.buttigieg/?hl=en",
+                    Facebook: "https://www.facebook.com/petebuttigieg1/",
+                    Website: "https://peteforamerica.com/"),
+        socialMedia(Twitter: "https://twitter.com/CoryBooker?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "https://www.instagram.com/corybooker/?hl=en",
+                    Facebook: "https://www.facebook.com/corybooker/",
+                    Website: "https://corybooker.com/"),
+        socialMedia(Twitter: "https://twitter.com/BetoORourke?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "https://www.instagram.com/betoorourke/?hl=en",
+                    Facebook: "https://www.facebook.com/betoorourke/",
+                    Website: "https://betoorourke.com/"),
+        socialMedia(Twitter: "https://twitter.com/SenWarren?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "https://www.instagram.com/elizabethwarren/?hl=en",
+                    Facebook: "https://www.facebook.com/ElizabethWarren/",
+                    Website: "https://elizabethwarren.com/"),
+        socialMedia(Twitter: "https://twitter.com/AndrewYang?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "https://www.instagram.com/andrewyang2020/?hl=en",
+                    Facebook: "https://www.facebook.com/andrewyang2020/",
+                    Website: "https://www.yang2020.com/"),
+        socialMedia(Twitter: "https://twitter.com/amyklobuchar?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "",
+                    Facebook: "https://www.facebook.com/amyklobuchar/",
+                    Website: ""),
+        socialMedia(Twitter: "",
+                    Instagram: "",
+                    Facebook: "",
+                    Website: ""),
         socialMedia(Twitter: "",
                     Instagram: "",
                     Facebook: "",
@@ -29,10 +69,16 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
     ]
     
     @IBAction func twitter(_ sender: Any) {
-        
     }
     
+    @IBAction func facebook(_ sender: Any) {
+    }
     
+    @IBAction func instagram(_ sender: Any) {
+    }
+    
+    @IBAction func website(_ sender: Any) {
+    }
     
     @IBOutlet weak var nameLabel: UILabel!
     
