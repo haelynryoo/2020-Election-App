@@ -67,21 +67,25 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
     ]
     
     @IBAction func twitter(_ sender: Any) {
-        UIApplication.shared.openURL(NSURL(string: currentCandidate!.SM!.Twitter!)! as URL)
+        openSocialMedia(SMURL: currentCandidate!.SM!.Twitter!)
     }
     
     @IBAction func facebook(_ sender: Any) {
-        UIApplication.shared.openURL(NSURL(string: currentCandidate!.SM!.Facebook!)! as URL)
+        openSocialMedia(SMURL: currentCandidate!.SM!.Facebook!)
     }
     
     @IBAction func instagram(_ sender: Any) {
-        UIApplication.shared.openURL(NSURL(string: currentCandidate!.SM!.Instagram!)! as URL)
+        openSocialMedia(SMURL: currentCandidate!.SM!.Instagram!)
     }
         
     @IBAction func website(_ sender: Any) {
-        UIApplication.shared.openURL(NSURL(string: currentCandidate!.SM!.Website!)! as URL)
+        openSocialMedia(SMURL: currentCandidate!.SM!.Website!)
     }
     
+    func openSocialMedia(SMURL: String) {
+        var test = currentCandidate!
+        //UIApplication.shared.openURL(NSURL(string: SMURL)! as URL)
+    }
     
     @IBOutlet weak var nameLabel: UILabel!
     
@@ -172,17 +176,14 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
         currentCandidate = candidates[C]
         
         performSegue(withIdentifier: "SgShowCandidate", sender: nil)
-        if (nameLabel != nil) {
-            print("Test")
-        }
-        
-        nameLabel.text = currentCandidate!.Name!
+
+        //TODO: Fix the error that shows up, saying it found nil for labels
+//        nameLabel.text = currentCandidate!.Name!
 //        ImageLabel?.image = currentCandidate!.Image!
 //        AboutLabel?.text = currentCandidate!.About!
 //        pastExperiencesLabel?.text = currentCandidate!.pastExperiences!
 //        PoliciesLabel?.text = currentCandidate!.Policies!
 //        ScandalsLabel?.text = currentCandidate!.Scandals!
-//
         
     }
     @IBAction func handleKamalaHarris(_ sender: Any) {
