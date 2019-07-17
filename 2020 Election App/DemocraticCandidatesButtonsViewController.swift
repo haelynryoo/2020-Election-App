@@ -55,17 +55,17 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
                     Facebook: "https://www.facebook.com/andrewyang2020/",
                     Website: "https://www.yang2020.com/"),
         socialMedia(Twitter: "https://twitter.com/amyklobuchar?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-                    Instagram: "",
+                    Instagram: "https://www.instagram.com/amyklobuchar/?hl=en",
                     Facebook: "https://www.facebook.com/amyklobuchar/",
-                    Website: ""),
-        socialMedia(Twitter: "",
-                    Instagram: "",
-                    Facebook: "",
-                    Website: ""),
-        socialMedia(Twitter: "",
-                    Instagram: "",
-                    Facebook: "",
-                    Website: "")
+                    Website: "https://amyklobuchar.com/"),
+        socialMedia(Twitter: "https://twitter.com/GovBillWeld?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "https://www.instagram.com/govbillweld/?hl=en",
+                    Facebook: "https://www.facebook.com/GovBillWeld/",
+                    Website: "https://www.weld2020.org/"),
+        socialMedia(Twitter: "https://twitter.com/realDonaldTrump?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    Instagram: "https://www.instagram.com/realdonaldtrump/?hl=en",
+                    Facebook: "https://www.facebook.com/DonaldTrump/",
+                    Website: "https://www.donaldjtrump.com/")
     ]
     
     @IBAction func twitter(_ sender: Any) {
