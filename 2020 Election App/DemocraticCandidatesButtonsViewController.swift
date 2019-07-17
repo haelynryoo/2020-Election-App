@@ -67,16 +67,21 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
     ]
     
     @IBAction func twitter(_ sender: Any) {
+        UIApplication.shared.openURL(NSURL(string: currentCandidate!.SM!.Twitter!)! as URL)
     }
     
     @IBAction func facebook(_ sender: Any) {
+        UIApplication.shared.openURL(NSURL(string: currentCandidate!.SM!.Facebook!)! as URL)
     }
     
     @IBAction func instagram(_ sender: Any) {
+        UIApplication.shared.openURL(NSURL(string: currentCandidate!.SM!.Instagram!)! as URL)
+    }
+        
+    @IBAction func website(_ sender: Any) {
+        UIApplication.shared.openURL(NSURL(string: currentCandidate!.SM!.Website!)! as URL)
     }
     
-    @IBAction func website(_ sender: Any) {
-    }
     
     @IBOutlet weak var nameLabel: UILabel!
     
@@ -177,6 +182,7 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
 //        pastExperiencesLabel?.text = currentCandidate!.pastExperiences!
 //        PoliciesLabel?.text = currentCandidate!.Policies!
 //        ScandalsLabel?.text = currentCandidate!.Scandals!
+//
         
     }
     @IBAction func handleKamalaHarris(_ sender: Any) {
