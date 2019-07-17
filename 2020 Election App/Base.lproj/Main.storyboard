@@ -80,100 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
-        </scene>
-        <!--Andrew Yang View Controller-->
-        <scene sceneID="fD2-8n-bCv">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="p10-pa-l1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="pow-DF-oVF" customClass="AndrewYangViewController" customModule="_020_Election_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Pua-vp-R7o">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Andrew Yang" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5e-2b-JTJ">
-                                <rect key="frame" x="16" y="20" width="193" height="72"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="193" id="VqJ-jr-KwY"/>
-                                    <constraint firstAttribute="height" constant="72" id="h2w-59-p6A"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AndrewYang" translatesAutoresizingMaskIntoConstraints="NO" id="Q8Z-yZ-Fmk">
-                                <rect key="frame" x="16" y="74" width="102" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="a5e-2b-JTJ" firstAttribute="top" secondItem="6Yp-65-s2c" secondAttribute="top" id="RyN-CB-s2F"/>
-                            <constraint firstItem="6Yp-65-s2c" firstAttribute="bottom" secondItem="a5e-2b-JTJ" secondAttribute="bottom" constant="575" id="icj-P3-e1T"/>
-                            <constraint firstItem="a5e-2b-JTJ" firstAttribute="leading" secondItem="6Yp-65-s2c" secondAttribute="leading" constant="16" id="nGK-Ni-n75"/>
-                            <constraint firstItem="6Yp-65-s2c" firstAttribute="trailing" secondItem="a5e-2b-JTJ" secondAttribute="trailing" constant="166" id="vfQ-xX-raB"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Yp-65-s2c"/>
-                    </view>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="124" y="1561.169415292354"/>
-        </scene>
-        <!--Klobuchar View Controller-->
-        <scene sceneID="IuZ-bO-fKH">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OM8-Az-6XP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="I69-EQ-IHI" customClass="KlobucharViewController" customModule="_020_Election_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="c6E-Ls-OTJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amy Klobuchar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gx-aa-aDl">
-                                <rect key="frame" x="16" y="20" width="158" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Klobuchar" translatesAutoresizingMaskIntoConstraints="NO" id="XRJ-U4-sOL">
-                                <rect key="frame" x="16" y="97" width="120" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="h7g-ht-ROq"/>
-                    </view>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="748" y="1561.169415292354"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="E1b-di-EEV">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z5M-eJ-fix" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="kaY-sA-a0D" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3HE-YP-vkQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pete Buttegieg" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AiD-fg-CZn">
-                                <rect key="frame" x="16" y="20" width="168" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S1S-7f-YvE">
-                                <rect key="frame" x="16" y="99" width="110" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="h5n-hc-gnV"/>
-                    </view>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1431.2" y="1557.5712143928038"/>
+            <point key="canvasLocation" x="-196" y="134"/>
         </scene>
         <!--Democratic Candidates Buttons View Controller-->
         <scene sceneID="Im3-um-VAl">
@@ -277,10 +184,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8UI-Zr-eDF"/>
                     </view>
+                    <connections>
+                        <segue destination="mNc-FW-fjT" kind="show" identifier="SgShowCandidate" id="c9x-Ce-cTs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gho-yL-vlN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="869.60000000000002" y="393.55322338830587"/>
+            <point key="canvasLocation" x="796" y="429"/>
         </scene>
         <!--Democratic Candidates Buttons View Controller-->
         <scene sceneID="cpT-7i-pcX">
@@ -351,7 +261,7 @@
                                         <rect key="frame" x="10" y="91" width="123" height="121"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name goes here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QY9-hh-HuF">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QY9-hh-HuF">
                                         <rect key="frame" x="10" y="10" width="123" height="73"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -389,12 +299,7 @@
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
-                        <outlet property="AboutLabel" destination="iaa-Xj-2xG" id="zU3-yu-Ngs"/>
-                        <outlet property="ImageLabel" destination="LOj-kf-zKi" id="0f9-q3-Pbp"/>
-                        <outlet property="PoliciesLabel" destination="3hg-Z7-wmq" id="Y2H-3f-kjt"/>
-                        <outlet property="ScandalsLabel" destination="M2F-jc-luZ" id="4vh-hG-4EG"/>
-                        <outlet property="nameLabel" destination="QY9-hh-HuF" id="0Zb-6g-Tnt"/>
-                        <outlet property="pastExperiencesLabel" destination="01G-rl-I9F" id="V4x-zD-6Tf"/>
+                        <outlet property="nameLabel" destination="QY9-hh-HuF" id="bxm-t8-akx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cf-jV-boG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -434,9 +339,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AndrewYang" width="225" height="225"/>
         <image name="DemocraticLogo" width="347" height="313"/>
-        <image name="Klobuchar" width="280" height="180"/>
         <image name="RepublicanLogo" width="345" height="315"/>
     </resources>
 </document>
