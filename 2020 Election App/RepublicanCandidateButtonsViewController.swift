@@ -10,6 +10,20 @@ import UIKit
 
 class RepublicanCandidateButtonsViewController: UIViewController {
 
+    var candidateNumber: Int = 0
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! CandidateInfoViewController
+        vc.currentCandidateSelected = candidateNumber
+    }
+    
+    func setCandidate(C: Int) {
+        //set candidate with Int parameter passed
+        candidateNumber = C
+        performSegue(withIdentifier: "SgShowCandidate", sender: nil)
+    
+        
+        
     override func viewDidLoad() {
         super.viewDidLoad()
 
