@@ -19,9 +19,7 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
         let Website: String?
     }
     
-    var currentSocialMedia: socialMedia?
-    
-    var candidateSocialMediaInformation: [socialMedia] = [
+    lazy var candidateSocialMediaInformation: [socialMedia] = [
         socialMedia(Twitter: "https://twitter.com/KamalaHarris?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
                     Instagram: "https://www.instagram.com/kamalaharris/",
                     Facebook: "https://www.facebook.com/KamalaHarris/",
@@ -91,63 +89,73 @@ class DemocraticCandidatesButtonsViewController: UIViewController {
         let pastExperiences: String?
         let Policies: String?
         let Scandals: String?
+        let SM: socialMedia?
     }
     
-    var candidates: [candidate] = [
+    lazy var candidates: [candidate] = [
         candidate(Name: "Kamala Harris",
                   Image: UIImage(named: "Kamala"),
                   About: "ETC",
                   pastExperiences: "Harris served two terms served as District Attorney of San Francisco. After which, she was elected as the first African-American and first female Attorney General of California. In 2015 she declared that she was running for the U.S. Senate and won the election in 2016. Harris is currently on the Homeland Security and Governmental Affairs Committee, the Select Committee on Intelligence, the Committee on the Judiciary, and the Committee on the Budget.",
                   Policies: "Education: Harris believes in free tuition for four-year public colleges, and supports Sanders' \"College for All Act\". She also wants \"national universal prekindergarten\". Gun Control: Wants to ban assault weapons and the sale of certain ones. Health Care: Supports \"Medicare for All\" bill which proposes government-run health care. Immigration: Supports DACA, opposes a border wall. Abortion: Supports abortion rights. Same-Sex Marriage: Didn't support law banning same-sex marriage in California. Taxes: Proposed LIFT the Middle Class Act. Prison Reform: Wants to legalize marijuana, change certain sentencing laws, end private prisons, wants to implement a federal moratorium on the death penalty.",
-                  Scandals: "Some of Harris' more controversial actions include trying to not hold police accountable for shootings and appealing a decision from a judge saying that California's death penalty system was unconstitutional."),
+                  Scandals: "Some of Harris' more controversial actions include trying to not hold police accountable for shootings and appealing a decision from a judge saying that California's death penalty system was unconstitutional.",
+                  SM: candidateSocialMediaInformation[0]),
         candidate(Name: "Joe Biden",
                   Image: UIImage(named: "Joe Biden"),
                   About: "",
                   pastExperiences: "",
                   Policies: "",
-                  Scandals: ""),
+                  Scandals: "",
+                  SM: candidateSocialMediaInformation[1]),
         candidate(Name: "Bernie Sanders",
                   Image: UIImage(named: "Pete"),
                   About: "",
                   pastExperiences: "",
                   Policies: "",
-                  Scandals: ""),
+                  Scandals: "",
+                  SM: candidateSocialMediaInformation[2]),
         candidate(Name: "Pete Buttegieg",
                   Image: UIImage(named: "PeteButtigieg"),
                   About: "",
                   pastExperiences: "",
                   Policies: "",
-                  Scandals: ""),
+                  Scandals: "",
+                  SM: candidateSocialMediaInformation[3]),
         candidate(Name: "Corey Booker",
                   Image: UIImage(named: "Corey"),
                   About: "",
                   pastExperiences: "",
                   Policies: "",
-                  Scandals: ""),
+                  Scandals: "",
+                  SM: candidateSocialMediaInformation[4]),
         candidate(Name: "Beto O'Rourke",
                   Image: UIImage(named: "Beto"),
                   About: "",
                   pastExperiences: "",
                   Policies: "",
-                  Scandals: ""),
+                  Scandals: "",
+                  SM: candidateSocialMediaInformation[5]),
         candidate(Name: "Elizabeth Warren",
                   Image: UIImage(named: "Warren"),
                   About: "",
                   pastExperiences: "",
                   Policies: "",
-                  Scandals: ""),
+                  Scandals: "",
+                  SM: candidateSocialMediaInformation[6]),
         candidate(Name: "Andrew Yang",
                   Image: UIImage(named: "AndrewYang"),
                   About: "",
                   pastExperiences: "",
                   Policies: "",
-                  Scandals: ""),
+                  Scandals: "",
+                  SM: candidateSocialMediaInformation[7]),
         candidate(Name: "Amy Klobuchar",
                   Image: UIImage(named: "Amy"),
                   About: "",
                   pastExperiences: "",
                   Policies: "",
-                  Scandals: ""),
+                  Scandals: "",
+                  SM: candidateSocialMediaInformation[8]),
     ]
     
     var currentCandidate: candidate?
