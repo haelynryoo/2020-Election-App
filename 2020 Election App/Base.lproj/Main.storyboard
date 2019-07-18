@@ -91,7 +91,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8g-pL-9Jf">
-                                <rect key="frame" x="103" y="434" width="272" height="48"/>
+                                <rect key="frame" x="45" y="434" width="272" height="48"/>
                                 <attributedString key="attributedText">
                                     <fragment content="473  :  9">
                                         <attributes>
@@ -116,14 +116,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qch-69-pgh" secondAttribute="bottom" constant="323" id="Fqn-Dr-qof"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qch-69-pgh" secondAttribute="trailing" constant="196" id="K2r-kD-ahI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xXt-oD-17X" secondAttribute="bottom" constant="323" id="KXd-Xe-QPb"/>
-                            <constraint firstItem="j8g-pL-9Jf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="LHO-jo-huO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="j8g-pL-9Jf" secondAttribute="bottom" constant="185" id="LRn-UV-SIw"/>
                             <constraint firstItem="xXt-oD-17X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="197" id="MbW-bS-I1n"/>
                             <constraint firstItem="dPR-A7-mhj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="P9O-zI-jVp"/>
                             <constraint firstItem="xXt-oD-17X" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="211" id="PkD-TX-4hl"/>
+                            <constraint firstItem="j8g-pL-9Jf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="PmN-XG-9iD"/>
                             <constraint firstItem="dPR-A7-mhj" firstAttribute="top" secondItem="j8g-pL-9Jf" secondAttribute="bottom" constant="8" id="aBW-BI-LZe"/>
                             <constraint firstItem="xXt-oD-17X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="231" id="aFy-Vv-A5u"/>
                             <constraint firstItem="qch-69-pgh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="211" id="dou-Nh-9ob"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="j8g-pL-9Jf" secondAttribute="bottom" constant="185" id="qga-C9-EUj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
