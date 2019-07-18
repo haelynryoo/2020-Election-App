@@ -10,7 +10,7 @@ import UIKit
 
 class RepublicanCandidateButtonsViewController: UIViewController {
 
-    var candidateNumber: Int = 0
+    var candidateNumber: Int = 9
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! CandidateInfoViewController
@@ -25,7 +25,7 @@ class RepublicanCandidateButtonsViewController: UIViewController {
     func setCandidate(C: Int) {
         //set candidate with Int parameter passed
         candidateNumber = C
-        performSegue(withIdentifier: "SgShowCandidate", sender: nil)
+        performSegue(withIdentifier: "SgRepublicanShowCandidate", sender: nil)
     }
         
         

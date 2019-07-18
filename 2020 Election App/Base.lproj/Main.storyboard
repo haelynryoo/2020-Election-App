@@ -18,21 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVL-wh-KZp">
-                                <rect key="frame" x="10" y="69" width="354" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="2020 Presidential Election">
-                                        <attributes>
-                                            <font key="NSFont" size="28" name="Charter-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ul-fV-cGs">
-                                <rect key="frame" x="61" y="110" width="253" height="21"/>
+                                <rect key="frame" x="61" y="130" width="253" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Get Informed About the Candidates">
@@ -45,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXt-oD-17X">
-                                <rect key="frame" x="138" y="317" width="124" height="96"/>
+                                <rect key="frame" x="126" y="376" width="155" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="RepublicanLogo"/>
                                 <connections>
@@ -53,7 +40,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLA-aS-xXq">
-                                <rect key="frame" x="32" y="469" width="310" height="138"/>
+                                <rect key="frame" x="32" y="576" width="310" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Learn about the candidates policies, past experiences, scandals, and get easy access to polling and their social media...">
@@ -66,13 +53,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlG-mm-KAq">
-                                <rect key="frame" x="126" y="160" width="149" height="105"/>
+                                <rect key="frame" x="119" y="204" width="162" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="DemocraticLogo"/>
                                 <connections>
                                     <segue destination="a8k-t4-Q0O" kind="show" id="RcH-Qr-L9M"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVL-wh-KZp">
+                                <rect key="frame" x="16" y="75" width="349" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="2020 Presidential Election">
+                                        <attributes>
+                                            <font key="NSFont" size="28" name="Charter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-196" y="134"/>
+            <point key="canvasLocation" x="-196" y="133.5832083958021"/>
         </scene>
         <!--Democratic Candidates Buttons View Controller-->
         <scene sceneID="Im3-um-VAl">
@@ -90,94 +90,112 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZs-JZ-jIe">
-                                <rect key="frame" x="93" y="575" width="177" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Amy Klobuchar"/>
-                                <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="egv-33-3Bt"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgR-tt-PTZ">
-                                <rect key="frame" x="93" y="120" width="177" height="52"/>
+                                <rect key="frame" x="99" y="139" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Joe Biden"/>
+                                <state key="normal" title="Joe Biden">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="bNz-AW-95o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6Q-zf-Xwc">
-                                <rect key="frame" x="93" y="185" width="177" height="52"/>
+                                <rect key="frame" x="99" y="199" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.16106059289677993" green="0.22349770606611588" blue="0.48322134067357514" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Bernie Sanders"/>
+                                <state key="normal" title="Bernie Sanders">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="aDg-eq-OtJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVc-mj-c9w">
-                                <rect key="frame" x="93" y="250" width="177" height="52"/>
+                                <rect key="frame" x="99" y="259" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Pete Buttegieg"/>
+                                <state key="normal" title="Pete Buttegieg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="den-wQ-D8S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7V-B4-3kc">
-                                <rect key="frame" x="93" y="315" width="177" height="52"/>
+                                <rect key="frame" x="99" y="319" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Corey Booker"/>
+                                <state key="normal" title="Cory Booker">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="Xux-4C-7CH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4km-lw-tfh">
-                                <rect key="frame" x="93" y="379" width="177" height="52"/>
+                                <rect key="frame" x="99" y="379" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Beto O'Rourke"/>
+                                <state key="normal" title="Beto O'Rourke">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="uuI-I5-oDg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvK-Jc-TLG">
-                                <rect key="frame" x="93" y="443" width="177" height="52"/>
+                                <rect key="frame" x="99" y="439" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Elizabeth Warren"/>
+                                <state key="normal" title="Elizabeth Warren">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="PYP-es-OAV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-5G-pWW">
-                                <rect key="frame" x="93" y="509" width="177" height="52"/>
+                                <rect key="frame" x="99" y="499" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Andrew Yang"/>
+                                <state key="normal" title="Andrew Yang">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="CVC-V2-mLt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-mh-rnb">
-                                <rect key="frame" x="93" y="54" width="177" height="52"/>
+                                <rect key="frame" x="99" y="79" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Kamala Harris"/>
+                                <state key="normal" title="Kamala Harris">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="h4t-Wv-8aN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZs-JZ-jIe">
+                                <rect key="frame" x="99" y="559" width="177" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Amy Klobuchar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="egv-33-3Bt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -207,9 +225,8 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2F-jc-luZ">
-                                                <rect key="frame" x="16" y="750" width="343" height="199"/>
+                                                <rect key="frame" x="16" y="769" width="343" height="180"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="160 words max">
                                                         <attributes>
@@ -221,7 +238,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oc-82-Y5a">
-                                                <rect key="frame" x="16" y="708" width="185" height="34"/>
+                                                <rect key="frame" x="8" y="754" width="185" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Scandals">
@@ -233,22 +250,8 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hg-Z7-wmq">
-                                                <rect key="frame" x="16" y="511" width="343" height="198"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="160 words max">
-                                                        <attributes>
-                                                            <font key="NSFont" size="14" name="Charter-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrC-R2-Kk7">
-                                                <rect key="frame" x="16" y="469" width="185" height="34"/>
+                                                <rect key="frame" x="8" y="496" width="185" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Policies">
@@ -260,22 +263,15 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01G-rl-I9F">
-                                                <rect key="frame" x="16" y="263" width="343" height="198"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="160 words max" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01G-rl-I9F">
+                                                <rect key="frame" x="16" y="279" width="343" height="209"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="160 words max">
-                                                        <attributes>
-                                                            <font key="NSFont" size="17" name="Charter-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hv9-7q-e0a">
-                                                <rect key="frame" x="16" y="221" width="185" height="34"/>
+                                                <rect key="frame" x="16" y="237" width="185" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Past Experiences">
@@ -292,33 +288,33 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWZ-Ps-pWZ">
-                                                <rect key="frame" x="178" y="20" width="77" height="46"/>
+                                                <rect key="frame" x="267" y="83" width="83" height="59"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="77" id="Ncy-40-2jl"/>
-                                                    <constraint firstAttribute="height" constant="49" id="tMT-0K-Xyg"/>
+                                                    <constraint firstAttribute="width" constant="83" id="9Ll-e8-vd4"/>
+                                                    <constraint firstAttribute="height" constant="59" id="MeC-F1-jFP"/>
                                                 </constraints>
                                                 <state key="normal" image="facebookIcon"/>
                                                 <connections>
                                                     <action selector="socialMediaPressed:" destination="mNc-FW-fjT" eventType="touchUpInside" id="Xwp-HB-Y0m"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr3-7C-DoN">
-                                                <rect key="frame" x="246" y="17" width="58" height="55"/>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr3-7C-DoN">
+                                                <rect key="frame" x="207" y="155" width="70" height="58"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="58" id="3r8-wb-mj7"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="39" id="Iin-gN-Dik"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="58" id="dFK-0b-wiI"/>
-                                                    <constraint firstAttribute="height" constant="55" id="knQ-Yf-zFI"/>
+                                                    <constraint firstAttribute="height" constant="58" id="44v-8i-OT4"/>
+                                                    <constraint firstAttribute="width" constant="70" id="QPr-Vc-d7j"/>
                                                 </constraints>
                                                 <state key="normal" image="instagramIcon"/>
                                                 <connections>
                                                     <action selector="socialMediaPressed:" destination="mNc-FW-fjT" eventType="touchUpInside" id="3Od-Ub-f3X"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgT-Qs-cg1">
-                                                <rect key="frame" x="312" y="23" width="47" height="42"/>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgT-Qs-cg1">
+                                                <rect key="frame" x="285" y="155" width="55" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="42" id="NXg-yi-DT2"/>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="47" id="V5k-je-06T"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="42" id="VPR-zu-Qvb"/>
                                                     <constraint firstAttribute="width" constant="47" id="bdm-X1-5KL"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="31" id="e9O-Eq-Y5i"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="jl9-Xq-LuC"/>
@@ -328,58 +324,62 @@
                                                     <action selector="socialMediaPressed:" destination="mNc-FW-fjT" eventType="touchUpInside" id="cTU-4k-8pY"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-sT-sck">
-                                                <rect key="frame" x="126" y="17" width="62" height="49"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-sT-sck">
+                                                <rect key="frame" x="207" y="83" width="70" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="49" id="VDL-Eg-Z9O"/>
-                                                    <constraint firstAttribute="width" constant="62" id="tWE-US-NdM"/>
+                                                    <constraint firstAttribute="height" constant="56" id="Np7-pV-n4y"/>
+                                                    <constraint firstAttribute="width" constant="70" id="x9H-Bc-pQB"/>
                                                 </constraints>
                                                 <state key="normal" image="twitterIcon"/>
                                                 <connections>
                                                     <action selector="socialMediaPressed:" destination="mNc-FW-fjT" eventType="touchUpInside" id="uqR-Wl-XhG"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QY9-hh-HuF">
+                                                <rect key="frame" x="8" y="45" width="291" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.50024248410000005" green="0.47257022389999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="label">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Charter-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LOj-kf-zKi">
+                                                <rect key="frame" x="8" y="83" width="165" height="146"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hg-Z7-wmq">
+                                                <rect key="frame" x="8" y="530" width="343" height="231"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="160 words max">
+                                                        <attributes>
+                                                            <font key="NSFont" size="14" name="Charter-Roman"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="sr3-7C-DoN" firstAttribute="top" secondItem="j83-lZ-NUs" secondAttribute="top" constant="17" id="3ae-hr-Z5f"/>
-                                            <constraint firstItem="hgT-Qs-cg1" firstAttribute="leading" secondItem="j83-lZ-NUs" secondAttribute="leading" constant="312" id="4wr-GZ-4EU"/>
-                                            <constraint firstAttribute="bottom" secondItem="sr3-7C-DoN" secondAttribute="bottom" constant="928" id="DLR-vZ-dF2"/>
-                                            <constraint firstItem="aVR-sT-sck" firstAttribute="top" secondItem="j83-lZ-NUs" secondAttribute="top" constant="17" id="HEo-Oc-AZ3"/>
-                                            <constraint firstAttribute="trailing" secondItem="hgT-Qs-cg1" secondAttribute="trailing" constant="16" id="QE8-VF-tRS"/>
-                                            <constraint firstAttribute="bottom" secondItem="aVR-sT-sck" secondAttribute="bottom" constant="934" id="TTw-WS-Jrg"/>
-                                            <constraint firstItem="sr3-7C-DoN" firstAttribute="leading" secondItem="j83-lZ-NUs" secondAttribute="leading" constant="246" id="U0k-5K-qmA"/>
-                                            <constraint firstAttribute="bottom" secondItem="hgT-Qs-cg1" secondAttribute="bottom" constant="935" id="YDg-e7-Z4I"/>
-                                            <constraint firstItem="hgT-Qs-cg1" firstAttribute="top" secondItem="j83-lZ-NUs" secondAttribute="top" constant="23" id="YJ1-tO-9gT"/>
-                                            <constraint firstItem="aVR-sT-sck" firstAttribute="leading" secondItem="j83-lZ-NUs" secondAttribute="leading" constant="126" id="aBm-Dg-g63"/>
+                                            <constraint firstAttribute="bottom" secondItem="aVR-sT-sck" secondAttribute="bottom" constant="864" id="3ZQ-0V-VPF"/>
+                                            <constraint firstAttribute="trailing" secondItem="sr3-7C-DoN" secondAttribute="trailing" constant="120" id="IWr-OV-sFn"/>
+                                            <constraint firstAttribute="trailing" secondItem="gWZ-Ps-pWZ" secondAttribute="trailing" constant="29" id="TRt-NI-o9P"/>
+                                            <constraint firstAttribute="trailing" secondItem="aVR-sT-sck" secondAttribute="trailing" constant="120" id="Xuy-3I-6c2"/>
                                             <constraint firstAttribute="height" constant="1000" id="bjF-Hp-4Qh"/>
-                                            <constraint firstAttribute="bottom" secondItem="gWZ-Ps-pWZ" secondAttribute="bottom" constant="931" id="d6q-d1-icZ"/>
-                                            <constraint firstItem="gWZ-Ps-pWZ" firstAttribute="leading" secondItem="j83-lZ-NUs" secondAttribute="leading" constant="178" id="nKV-WY-aAR"/>
-                                            <constraint firstAttribute="trailing" secondItem="sr3-7C-DoN" secondAttribute="trailing" constant="71" id="rvM-Hp-hAV"/>
-                                            <constraint firstItem="gWZ-Ps-pWZ" firstAttribute="top" secondItem="j83-lZ-NUs" secondAttribute="top" constant="20" id="vcX-K3-cun"/>
-                                            <constraint firstAttribute="trailing" secondItem="gWZ-Ps-pWZ" secondAttribute="trailing" constant="120" id="zVL-6C-4Ff"/>
+                                            <constraint firstAttribute="bottom" secondItem="sr3-7C-DoN" secondAttribute="bottom" constant="795" id="dEh-ei-q5Y"/>
+                                            <constraint firstAttribute="bottom" secondItem="gWZ-Ps-pWZ" secondAttribute="bottom" constant="861" id="wb4-Ez-nqC"/>
+                                            <constraint firstAttribute="bottom" secondItem="hgT-Qs-cg1" secondAttribute="bottom" constant="795" id="wfg-c2-aXS"/>
+                                            <constraint firstAttribute="trailing" secondItem="hgT-Qs-cg1" secondAttribute="trailing" constant="43" id="wft-LW-jwM"/>
                                         </constraints>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LOj-kf-zKi">
-                                        <rect key="frame" x="10" y="91" width="123" height="121"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QY9-hh-HuF">
-                                        <rect key="frame" x="10" y="28" width="123" height="55"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" red="0.50024248410000005" green="0.47257022389999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100 max characters" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaa-Xj-2xG">
-                                        <rect key="frame" x="160" y="91" width="193" height="121"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="j83-lZ-NUs" firstAttribute="top" secondItem="Y6K-a9-Ihv" secondAttribute="top" id="1Q3-TX-ecI"/>
@@ -401,7 +401,6 @@
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
-                        <outlet property="AboutLabel" destination="iaa-Xj-2xG" id="3ea-D7-YEK"/>
                         <outlet property="ImageLabel" destination="LOj-kf-zKi" id="Ljj-HR-dIR"/>
                         <outlet property="PastExperiencesLabel" destination="01G-rl-I9F" id="aIV-PV-EfN"/>
                         <outlet property="PoliciesLabel" destination="3hg-Z7-wmq" id="ooU-iC-eJg"/>
@@ -421,34 +420,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDN-kP-1K1">
-                                <rect key="frame" x="92" y="220" width="177" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="candidatePressed:" destination="IHI-99-t9r" eventType="touchUpInside" id="ezh-KU-RaV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn5-cm-ct8">
-                                <rect key="frame" x="93" y="269" width="177" height="52"/>
+                                <rect key="frame" x="99" y="327" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71289729509999999" green="0.58582671389999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.7709277849740932" green="0.21508342931097632" blue="0.19712456040088217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Bill Weld">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="candidatePressed:" destination="IHI-99-t9r" eventType="touchUpInside" id="xDF-Z9-IhN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDN-kP-1K1">
+                                <rect key="frame" x="99" y="245" width="177" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78519672927461137" green="0.18712141952739147" blue="0.19097907203224093" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Donald Trump">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="candidatePressed:" destination="IHI-99-t9r" eventType="touchUpInside" id="ezh-KU-RaV"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EZl-pz-U1A"/>
                     </view>
+                    <connections>
+                        <segue destination="mNc-FW-fjT" kind="show" identifier="SgRepublicanShowCandidate" id="4dz-oI-wZM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P5F-7E-a69" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="870" y="-279"/>
+            <point key="canvasLocation" x="869.60000000000002" y="-279.31034482758622"/>
         </scene>
     </scenes>
     <resources>
@@ -459,4 +465,7 @@
         <image name="twitterIcon" width="202" height="166"/>
         <image name="webIcon" width="128" height="128"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4dz-oI-wZM"/>
+    </inferredMetricsTieBreakers>
 </document>
