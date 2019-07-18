@@ -17,6 +17,7 @@ class RepublicanCandidateButtonsViewController: UIViewController {
         vc.currentCandidateSelected = candidateNumber
     }
     
+
     @IBAction func candidatePressed(_ sender: Any) {
         let button = sender as! UIButton
         setCandidate(C: button.tag)

@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVL-wh-KZp">
-                                <rect key="frame" x="16" y="75" width="349" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVL-wh-KZp">
+                                <rect key="frame" x="20" y="45.5" width="341" height="35"/>
                                 <attributedString key="attributedText">
                                     <fragment content="2020 Presidential Election">
                                         <attributes>
@@ -31,9 +30,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ul-fV-cGs">
-                                <rect key="frame" x="61" y="130" width="253" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ul-fV-cGs">
+                                <rect key="frame" x="64" y="89" width="253" height="21"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Get Informed About the Candidates">
                                         <attributes>
@@ -42,29 +40,6 @@
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXt-oD-17X">
-                                <rect key="frame" x="198" y="229" width="144" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="RepublicanLogo"/>
-                                <connections>
-                                    <segue destination="IHI-99-t9r" kind="show" id="rW1-ny-7Pv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlG-mm-KAq">
-                                <rect key="frame" x="32" y="229" width="158" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="DemocraticLogo"/>
-                                <connections>
-                                    <segue destination="a8k-t4-Q0O" kind="show" id="RcH-Qr-L9M"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtQ-JL-VBi">
-                                <rect key="frame" x="61" y="406" width="253" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLA-aS-xXq">
@@ -80,13 +55,76 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8g-pL-9Jf">
+                                <rect key="frame" x="69" y="434" width="272" height="48"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="473  :  9">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="40" name="Charter-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPR-A7-mhj">
+                                <rect key="frame" x="135" y="490" width="141" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="days                 hours ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Charter-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXt-oD-17X">
+                                <rect key="frame" x="197" y="231" width="144" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="Yug-gW-1ZP"/>
+                                    <constraint firstAttribute="height" constant="113" id="lso-sH-hBr"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="RepublicanLogo"/>
+                                <connections>
+                                    <segue destination="IHI-99-t9r" kind="show" id="rW1-ny-7Pv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qch-69-pgh">
+                                <rect key="frame" x="34" y="224" width="144" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="HvZ-FW-hI3"/>
+                                    <constraint firstAttribute="height" constant="113" id="TLJ-nU-tTh"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="DemocraticLogo"/>
+                                <connections>
+                                    <segue destination="a8k-t4-Q0O" kind="show" id="BzG-zD-ZTP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xVL-wh-KZp" secondAttribute="bottom" constant="586.5" id="1bu-3C-HUa"/>
+                            <constraint firstItem="xVL-wh-KZp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6hj-0J-u4a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Ul-fV-cGs" secondAttribute="bottom" constant="557" id="75j-fQ-B3u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xXt-oD-17X" secondAttribute="trailing" constant="34" id="9iH-Ny-btx"/>
+                            <constraint firstItem="qch-69-pgh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="A2m-1l-Vjm"/>
+                            <constraint firstItem="7Ul-fV-cGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="B4W-ya-Wtd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qch-69-pgh" secondAttribute="bottom" constant="323" id="Fqn-Dr-qof"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qch-69-pgh" secondAttribute="trailing" constant="196" id="K2r-kD-ahI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xXt-oD-17X" secondAttribute="bottom" constant="323" id="KXd-Xe-QPb"/>
+                            <constraint firstItem="xXt-oD-17X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="197" id="MbW-bS-I1n"/>
+                            <constraint firstItem="xXt-oD-17X" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="211" id="PkD-TX-4hl"/>
+                            <constraint firstItem="xXt-oD-17X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="231" id="aFy-Vv-A5u"/>
+                            <constraint firstItem="qch-69-pgh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="211" id="dou-Nh-9ob"/>
+                            <constraint firstItem="xXt-oD-17X" firstAttribute="trailing" secondItem="j8g-pL-9Jf" secondAttribute="trailing" id="sS1-11-zhe"/>
+                            <constraint firstItem="j8g-pL-9Jf" firstAttribute="top" secondItem="xXt-oD-17X" secondAttribute="bottom" constant="90" id="u2Z-eW-EHk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="countdownLabel" destination="vtQ-JL-VBi" id="ovw-gk-8ok"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -100,18 +138,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgR-tt-PTZ">
-                                <rect key="frame" x="99" y="139" width="177" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Joe Biden">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="bNz-AW-95o"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6Q-zf-Xwc">
                                 <rect key="frame" x="99" y="199" width="177" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -121,7 +147,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="aDg-eq-OtJ"/>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="hbo-or-c11"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVc-mj-c9w">
@@ -133,7 +159,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="den-wQ-D8S"/>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="soZ-DV-8ap"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7V-B4-3kc">
@@ -145,7 +171,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="Xux-4C-7CH"/>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="QYd-8G-dmU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4km-lw-tfh">
@@ -157,7 +183,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="uuI-I5-oDg"/>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="PpC-6t-LNB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvK-Jc-TLG">
@@ -169,7 +195,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="PYP-es-OAV"/>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="96v-Jv-ihY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-5G-pWW">
@@ -181,19 +207,18 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="CVC-V2-mLt"/>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="wrF-61-Qdm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-mh-rnb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-mh-rnb">
                                 <rect key="frame" x="99" y="79" width="177" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Kamala Harris">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="h4t-Wv-8aN"/>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="XcE-dr-p4d"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZs-JZ-jIe">
@@ -205,15 +230,35 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="egv-33-3Bt"/>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="yuS-Ml-zsW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgR-tt-PTZ">
+                                <rect key="frame" x="99" y="139" width="177" height="52"/>
+                                <color key="backgroundColor" red="0.16106059289999999" green="0.2234977061" blue="0.4832213407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Joe Biden">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="canddatePressed:" destination="a8k-t4-Q0O" eventType="touchUpInside" id="M2e-my-dqy"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8UI-Zr-eDF" firstAttribute="bottom" secondItem="jgR-tt-PTZ" secondAttribute="bottom" constant="476" id="YYd-bg-S4z"/>
+                            <constraint firstItem="jgR-tt-PTZ" firstAttribute="leading" secondItem="8UI-Zr-eDF" secondAttribute="leading" constant="99" id="dwH-yc-hFg"/>
+                            <constraint firstItem="2fF-mh-rnb" firstAttribute="top" secondItem="8UI-Zr-eDF" secondAttribute="top" constant="59" id="kD2-ES-mAZ"/>
+                            <constraint firstItem="8UI-Zr-eDF" firstAttribute="bottom" secondItem="2fF-mh-rnb" secondAttribute="bottom" constant="536" id="lYF-5P-32b"/>
+                            <constraint firstItem="8UI-Zr-eDF" firstAttribute="trailing" secondItem="2fF-mh-rnb" secondAttribute="trailing" constant="99" id="n9i-1R-7xw"/>
+                            <constraint firstItem="2fF-mh-rnb" firstAttribute="leading" secondItem="8UI-Zr-eDF" secondAttribute="leading" constant="99" id="ubN-yU-j0N"/>
+                            <constraint firstItem="8UI-Zr-eDF" firstAttribute="trailing" secondItem="jgR-tt-PTZ" secondAttribute="trailing" constant="99" id="xf2-YX-Fvn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8UI-Zr-eDF"/>
                     </view>
                     <connections>
-                        <segue destination="mNc-FW-fjT" kind="show" identifier="SgShowCandidate" id="c9x-Ce-cTs"/>
+                        <segue destination="mNc-FW-fjT" kind="show" identifier="SgShowCandidate" id="MJc-bj-kYQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gho-yL-vlN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -234,21 +279,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j83-lZ-NUs">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2F-jc-luZ">
-                                                <rect key="frame" x="8" y="778" width="359" height="214"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="160 words max">
-                                                        <attributes>
-                                                            <font key="NSFont" size="14" name="Charter-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oc-82-Y5a">
-                                                <rect key="frame" x="8" y="744" width="185" height="34"/>
+                                                <rect key="frame" x="8" y="754" width="185" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Scandals">
@@ -261,7 +293,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="160 words max" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01G-rl-I9F">
-                                                <rect key="frame" x="8" y="269" width="359" height="212"/>
+                                                <rect key="frame" x="8" y="269" width="359" height="228"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="13"/>
                                                 <nil key="textColor"/>
@@ -347,11 +379,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LOj-kf-zKi">
-                                                <rect key="frame" x="8" y="83" width="165" height="146"/>
+                                                <rect key="frame" x="8" y="72" width="168" height="170"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hg-Z7-wmq">
-                                                <rect key="frame" x="8" y="505" width="359" height="241"/>
+                                                <rect key="frame" x="8" y="518" width="359" height="228"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="160 words max">
@@ -371,6 +403,32 @@
                                                     <segue destination="BYZ-38-t0r" kind="show" id="ZdX-xc-aW0"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrC-R2-Kk7">
+                                                <rect key="frame" x="8" y="490" width="185" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Policies">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Charter-Italic"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2F-jc-luZ">
+                                                <rect key="frame" x="8" y="786" width="359" height="214"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="160 words max">
+                                                        <attributes>
+                                                            <font key="NSFont" size="14" name="Charter-Roman"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -385,19 +443,6 @@
                                             <constraint firstAttribute="trailing" secondItem="hgT-Qs-cg1" secondAttribute="trailing" constant="43" id="wft-LW-jwM"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrC-R2-Kk7">
-                                        <rect key="frame" x="8" y="483" width="185" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="Policies">
-                                                <attributes>
-                                                    <font key="NSFont" size="24" name="Charter-Italic"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="j83-lZ-NUs" firstAttribute="top" secondItem="Y6K-a9-Ihv" secondAttribute="top" id="1Q3-TX-ecI"/>
@@ -447,7 +492,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="IHI-99-t9r" eventType="touchUpInside" id="xDF-Z9-IhN"/>
+                                    <action selector="candidatePressed:" destination="IHI-99-t9r" eventType="touchUpInside" id="Wga-nt-t8p"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDN-kP-1K1">
@@ -458,8 +503,17 @@
                                 <state key="normal" title="Donald Trump">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOS-Lz-7cs">
+                                <rect key="frame" x="99" y="245" width="177" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78519672929999995" green="0.1871214195" blue="0.190979072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Donald Trump">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
-                                    <action selector="candidatePressed:" destination="IHI-99-t9r" eventType="touchUpInside" id="ezh-KU-RaV"/>
+                                    <action selector="candidatePressed:" destination="IHI-99-t9r" eventType="touchUpInside" id="sBK-pc-2fV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -485,6 +539,6 @@
         <image name="webIcon" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4dz-oI-wZM"/>
+        <segue reference="MJc-bj-kYQ"/>
     </inferredMetricsTieBreakers>
 </document>
